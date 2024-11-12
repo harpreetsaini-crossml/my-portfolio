@@ -33,7 +33,7 @@ export default function Component() {
             </div>
             <div className="space-y-4 text-gray-600 max-w-xl">
               <p className="text-lg italic font-semibold flex items-center gap-2">
-                <Code size={20} /> About Me
+                <Code size={25} color="magenta"/> About Me
               </p>
               <p className="text-base">
                 Hello! I'm a passionate Python and Django web developer based in Punjab, India. With a Bachelor's degree in Computer Science, I'm on an exciting journey to create impactful web applications that solve real-world problems.
@@ -42,7 +42,7 @@ export default function Component() {
                 My fascination with coding started during my college years, and since then, I've been constantly learning and improving my skills. I love the challenge of turning complex problems into simple, beautiful, and intuitive designs.
               </p>
               <p className="text-lg italic font-semibold mt-6 flex items-center gap-2">
-                <Briefcase size={20} /> Skills & Expertise
+                <Briefcase size={25} color="blue"/> Skills & Expertise
               </p>
               <ul className="list-disc list-inside space-y-2">
                 <li>Python & Django: Building robust backend systems</li>
@@ -51,7 +51,7 @@ export default function Component() {
                 <li>Version Control: Git and GitHub for collaborative development</li>
               </ul>
               <p className="text-lg italic font-semibold mt-6 flex items-center gap-2">
-                <Heart size={20} /> Hobbies & Interests
+                <Heart size={25} color="red"/> Hobbies & Interests
               </p>
               <ul className="list-disc list-inside space-y-2">
                 <li>Drawing: Passionate about sketching and art</li>
