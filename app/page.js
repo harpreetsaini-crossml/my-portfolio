@@ -61,7 +61,7 @@ export default function Component() {
           <div className="relative">
             <div className="relative w-full aspect-[4/5] bg-white p-3 shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
               <Image
-                src="/profil.jpg?height=600&width=480"
+                src="/profile.jpg?height=600&width=480"
                 alt="Profile Image of Harpreet Singh"
                 width={480}
                 height={600}
