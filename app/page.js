@@ -1,10 +1,13 @@
-import Image from "next/image"
-import { Code, Briefcase, Heart } from "lucide-react"
+import Image from "next/image";
+import { Code, Briefcase, Heart } from "lucide-react";
 
 export default function Component() {
   return (
-    <div className="min-h-screen bg-[#FAF9F6] p-4 md:p-8 lg:p-12">
-      <div className="max-w-6xl mx-auto relative">
+    <div
+      className="min-h-screen bg-cover bg-center p-4 md:p-8 lg:p-12"
+      style={{ backgroundImage: "url('/background.png')" }}
+    >
+      <div className="bg-white bg-opacity-80 max-w-6xl mx-auto relative p-6 rounded-lg shadow-md">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="space-y-6">
             <div className="relative">
@@ -44,7 +47,7 @@ export default function Component() {
               <ul className="list-disc list-inside space-y-2">
                 <li>Python & Django: Building robust backend systems</li>
                 <li>RESTful APIs: Creating efficient data exchange interfaces</li>
-                <li>Frontend Technologies: Familiar with React </li>
+                <li>Frontend Technologies: Familiar with React</li>
                 <li>Version Control: Git and GitHub for collaborative development</li>
               </ul>
               <p className="text-lg italic font-semibold mt-6 flex items-center gap-2">
@@ -81,5 +84,5 @@ export default function Component() {
         </div>
       </div>
     </div>
-  )
+  );
 }
