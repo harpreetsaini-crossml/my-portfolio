@@ -23,7 +23,7 @@ export default function Component() {
                 >
                   <path
                     d="M0 10 H400"
-                    stroke="gray"  {/* Set directly for more consistent styling */}
+                    stroke="gray"  
                     strokeWidth="1"
                     className="text-gray-300"
                   />
