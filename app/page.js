@@ -23,7 +23,7 @@ export default function Component() {
                 >
                   <path
                     d="M0 10 H400"
-                    stroke="currentColor"
+                    stroke="gray"  {/* Set directly for more consistent styling */}
                     strokeWidth="1"
                     className="text-gray-300"
                   />
@@ -36,10 +36,10 @@ export default function Component() {
                 <Code size={25} color="magenta"/> About Me
               </p>
               <p className="text-base">
-                Hello! I'm a passionate Python and Django web developer based in Punjab, India. With a Bachelor's degree in Computer Science, I'm on an exciting journey to create impactful web applications that solve real-world problems.
+                Hello! I&apos;m a passionate Python and Django web developer based in Punjab, India. With a Bachelor&apos;s degree in Computer Science, I&apos;m on an exciting journey to create impactful web applications that solve real-world problems.
               </p>
               <p className="text-base">
-                My fascination with coding started during my college years, and since then, I've been constantly learning and improving my skills. I love the challenge of turning complex problems into simple, beautiful, and intuitive designs.
+                My fascination with coding started during my college years, and since then, I&apos;ve been constantly learning and improving my skills. I love the challenge of turning complex problems into simple, beautiful, and intuitive designs.
               </p>
               <p className="text-lg italic font-semibold mt-6 flex items-center gap-2">
                 <Briefcase size={25} color="blue"/> Skills & Expertise
@@ -64,7 +64,7 @@ export default function Component() {
           <div className="relative">
             <div className="relative w-full aspect-[4/5] bg-white p-3 shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-300">
               <Image
-                src="/profile.jpg?height=600&width=480"
+                src="/profile.jpg"
                 alt="Profile Image of Harpreet Singh"
                 width={480}
                 height={600}
@@ -74,7 +74,7 @@ export default function Component() {
             </div>
             <div className="absolute inset-0 bg-white -z-10 transform -rotate-2"></div>
             <div className="absolute bottom-4 right-4 bg-white p-4 shadow-md rounded-lg">
-              <p className="text-sm font-semibold text-gray-800">Let's Connect!</p>
+              <p className="text-sm font-semibold text-gray-800">Let&apos;s Connect!</p>
               <div className="mt-2 space-y-1">
                 <a href="mailto:harpreet@example.com" className="text-blue-600 hover:underline block">harpreet.singh@crossml.com</a>
                 <a href="https://www.linkedin.com/in/harpreet-singh-saini-24a4a6296/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline block">LinkedIn</a>
