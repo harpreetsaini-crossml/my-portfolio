@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Code, Briefcase, Heart, User, Phone } from 'lucide-react';
+import { Briefcase, Heart, User, Phone } from 'lucide-react';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

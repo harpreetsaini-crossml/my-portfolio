@@ -12,10 +12,10 @@ export default function About() {
             <Code size={25} color="magenta"/> About Me
           </p>
           <p className="text-base">
-            Hello! I'm a passionate Python and Django web developer based in Punjab, India. With a Bachelor's degree in Computer Science, I'm on an exciting journey to create impactful web applications that solve real-world problems.
+            Hello! I&apos;m a passionate Python and Django web developer based in Punjab, India. With a Bachelor&apos;s degree in Computer Science, I&apos;m on an exciting journey to create impactful web applications that solve real-world problems.
           </p>
           <p className="text-base">
-            My fascination with coding started during my college years, and since then, I've been constantly learning and improving my skills. I love the challenge of turning complex problems into simple, beautiful, and intuitive designs.
+            My fascination with coding started during my college years, and since then, I&apos;ve been constantly learning and improving my skills. I love the challenge of turning complex problems into simple, beautiful, and intuitive designs.
           </p>
         </div>
         <div className="relative">
