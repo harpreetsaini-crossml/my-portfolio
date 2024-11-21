@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Briefcase, Heart, User, Phone } from 'lucide-react';
+import { Briefcase, Heart, User, Phone, Mail } from 'lucide-react';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -32,6 +32,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <Link href="/connect" className="text-gray-600 hover:text-gray-800 flex items-center gap-1">
                 <Phone size={20} />
                 Connect
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="text-gray-600 hover:text-gray-800 flex items-center gap-1">
+                <Mail size={20} />
+                Contact
               </Link>
             </li>
           </ul>
